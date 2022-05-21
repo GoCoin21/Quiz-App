@@ -1,0 +1,107 @@
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.question .h2{
+    font-family: "VT323", monospace;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.answer{
+    width : 500px;
+    border : 1px solid black;
+    background-color: #f8f5f5;
+    color : #000;
+    text-align: center;
+    cursor : pointer;
+    height: 50px;
+    font-family: "VT323", monospace;
+}
+.btn1{
+    border : 1px transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightblue;
+    color : #05445e;;
+    font-size : 14px;
+    width: 500px;
+    height: 50px;
+    margin:10px;
+   
+    font-family: "VT323", monospace;
+    cursor: pointer;
+}
+.btn2{
+    border : 1px transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color:darkslategrey;
+    color :#e30de3;
+    font-size : 14px;
+    width: 500px;
+    height: 50px;
+    font-family: "VT323", monospace;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.click-answer{
+    width: 100px;
+    height: 14px;
+    margin-top: 2px;
+    padding: 2px;
+    background-color: gray;
+}
+.ans{
+    margin: 2px;
+    height: 14px;
+    text-align: center;
+}
+.finish{
+    border : 1px transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color:darkslategrey;
+  
+    font-size : 14px;
+    width: 500px;
+    height: 50px;
+    font-family: "VT323", monospace;
+    cursor: pointer;
+    
+}
+.finish:hover{
+    color : pink;
+}
+.start{
+    border : 1px transparent;
+    border-radius: 5px;
+    text-align: center;
+    background-color:darkslategrey;
+    color: #fff;
+    font-size : 14px;
+    width: 500px;
+    height: 50px;
+    font-family: "VT323", monospace;
+    cursor: pointer;
+}
